@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toba Travel</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Toba Travel</h1>
+        </div>
+        <nav class="header-right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our-package">Our Package</a></li>
+                <li><a href="#call-us">Contact Us</a></li>
+            </ul>
+            <div class="menu-icon">&#9776;</div> 
+        </nav>
+    </header>
+    <main>
+        <button id="contact-button"><a href="#contact-form">Contact Us</a></button>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to Toba Travel, your ultimate destination for a memorable journey!</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="assets/LakeTobaFood_thumbnail.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="assets/toba1.jpeg" style="width:100%">
+                </div>
+            
+                <div class="mySlides fade">
+                    <img src="assets/LakeTobaFood_thumbnail.jpg" style="width:100%">
+                </div>
+            </div>
+        </section>
+        <section id="our-package">
+            <h2>Our Package</h2>
+            
+            <div id="destinations">
+                
+                <div class="destination">
+                    <img src="assets/LakeTobaFood_thumbnail.jpg" alt="Destination 1">
+                    <p>Lake Toba</p>
+                </div>
+                <div class="destination">
+                    <img src="assets/toba1.jpeg"Destination 2">
+                    <p>Samosir Island</p>
+                </div>
+                <div class="destination">
+                    <img src="assets/LakeTobaFood_thumbnail.jpg" alt="Destination 3">
+                    <p>Parapat</p>
+                </div>
+    
+            </div>
+            <article id="passenger-review">
+                <h3>Passenger Review</h3>
+                <div class="testimonial">
+                    <img src="assets/toba1.jpeg" alt="Passenger 1">
+                    <p>"Our trip to Lake Toba with Toba Travel was absolutely fantastic! The scenery was breathtaking, and the accommodations were top-notch. Highly recommended!"</p>
+                </div>
+                <div class="testimonial">
+                    <img src="assets/LakeTobaFood_thumbnail.jpg" alt="Passenger 2">
+                    <p>"I had an amazing experience exploring Samosir Island with Toba Travel. The tour guides were knowledgeable, and the activities were so much fun. Can't wait to go back!"</p>
+                </div>
+            </article>
+            <aside id="contact-form">
+                <h3>Contact Us</h3>
+                <form id="contact-us-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="favorite-place">Favorite Place:</label>
+                        <select id="favorite-place" name="favorite-place">
+                            <option value="Lake Toba">Lake Toba</option>
+                            <option value="Samosir Island">Samosir Island</option>
+                            <option value="Parapat">Parapat</option>
+                        </select>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </aside>
+        </section>
+        <section id="call-us">
+            <h2>Call Us</h2>
+            <button id="whatsapp-button" onclick="window.location.href='https://wa.me/+6287816658859'">
+                <i class="fab fa-whatsapp"></i>
+                Chat via WhatsApp
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>About Toba Travel</p>
+        
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
